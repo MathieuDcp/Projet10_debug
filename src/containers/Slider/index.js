@@ -43,6 +43,7 @@ const Slider = () => {
             </div>
           </div>
           <div 
+           // Ajout key event //
             key={event.description}
             className="SlideCard__paginationContainer"
           >
@@ -54,6 +55,7 @@ const Slider = () => {
                   type="radio"
                   name="radio-button"
                   checked= {index === radioIdx}
+                  // Ajout du onchange //
                   onChange={() => null}
                 />
               ))}

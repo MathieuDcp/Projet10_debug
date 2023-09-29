@@ -27,3 +27,5 @@ describe("When Events is created", () => {
     });
   });
 });
+
+/* Passage du await en expect  L.25*/

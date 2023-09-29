@@ -58,3 +58,6 @@ describe("When a page is created", () => {
       });
       
   });
+
+
+  /* Passage du await en expect L.25 */
